@@ -10,10 +10,9 @@ refren3.txt
 zwrotka2.txt
 
 
-refren4.txt
+refren3.txt
 
 
 zwrotka3.txt
 
-
-refren5.txt
+refren3.txt
