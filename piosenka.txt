@@ -1,14 +1,6 @@
 refren1.txt
 
-[Refrain 2: Eminem]
-Guess who's back, back again?
-Shady's back, tell a friend
-Guess who's back? Guess who's back?
-Guess who's back? Guess who's back?
-Guess who's back? Guess who's back?
-Guess who's back?
-(Da-da-da, da, da, da, da, da, da)
-(Da-da-da, da, da, da, da)
+refren2.txt
 
 [Verse 1: Eminem]
 I've created a monster
