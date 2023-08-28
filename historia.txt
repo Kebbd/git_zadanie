@@ -1,0 +1,229 @@
+commit d7011c5f871394eb4f5c7067ef5ec96479d22ed6 (HEAD -> master)
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 09:02:05 2023 +0200
+
+    usun powtarzajace refreny
+
+commit 101b39e6970514824cc5f8af7b0d4b1548cc0df1
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 09:00:59 2023 +0200
+
+    powtarzajacy sie refren
+
+commit 672ebdc7331dee53d557e6a63c0b23e997b85435
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:56:06 2023 +0200
+
+    Revert "usun z refenu"
+
+    This reverts commit fe4be9b9a7e136dbe6589b354e47c3785405ada2.
+
+commit fe4be9b9a7e136dbe6589b354e47c3785405ada2
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:55:28 2023 +0200
+
+    usun z refenu
+
+commit 1673ce740a8038a2d7552529ac2e18f2f8e49de2
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:54:43 2023 +0200
+
+    przenies zwrotka3
+
+commit dc7adb5636e1314931ab0d09a3e8ca4d56820aeb
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:54:03 2023 +0200
+
+    przenies zwrotka2
+
+commit 0079477ead123ea695f693db82ed9f58c7c139c8
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:52:14 2023 +0200
+
+    przenies refren3
+
+commit 6ed3af9e193e07e9af33063cf1b29dec022764be
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:51:08 2023 +0200
+
+    przenies zwrotka1
+
+commit 30f4b511069f1093be35cf0c46699f143b769e1c
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:50:21 2023 +0200
+
+    przenies refren2
+
+commit adf5c31f26b410f014b6870244d3ccfe470fd1a2
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:49:23 2023 +0200
+
+    przenies refren1
+
+commit 544521dee7641f4eaba8fb198068c3f1825c0de8
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:48:12 2023 +0200
+
+    dodaj piosenka
+
+
+
+
+$ git log -p piosenka.txt
+commit d7011c5f871394eb4f5c7067ef5ec96479d22ed6 (HEAD -> master)
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 09:02:05 2023 +0200
+
+    usun powtarzajace refreny
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 4916fec..ae83a85 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -10,10 +10,9 @@ refren3.txt
+ zwrotka2.txt
+
+
+-refren4.txt
++refren3.txt
+
+
+ zwrotka3.txt
+
+-
+-refren5.txt
+\ No newline at end of file
+
+
+
+
+
+$ git log -p refren1.txt
+commit 672ebdc7331dee53d557e6a63c0b23e997b85435
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:56:06 2023 +0200
+
+    Revert "usun z refenu"
+
+    This reverts commit fe4be9b9a7e136dbe6589b354e47c3785405ada2.
+
+diff --git a/refren1.txt b/refren1.txt
+index 10d7b50..b9fb03e 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -3,3 +3,4 @@ Two trailer-park girls go 'round the outside
+ 'Round the outside, 'round the outside
+ Two trailer-park girls go 'round the outside
+ 'Round the outside, 'round the outside
++Woo! (Ooh, ooh)
+\ No newline at end of file
+
+commit fe4be9b9a7e136dbe6589b354e47c3785405ada2
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:55:28 2023 +0200
+
+
+
+
+
+
+$ git log -p refren2.txt
+commit 30f4b511069f1093be35cf0c46699f143b769e1c
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:50:21 2023 +0200
+
+    przenies refren2
+
+diff --git a/refren2.txt b/refren2.txt
+new file mode 100644
+index 0000000..d15889d
+--- /dev/null
++++ b/refren2.txt
+@@ -0,0 +1,9 @@
++[Refrain 2: Eminem]
++Guess who's back, back again?
++Shady's back, tell a friend
++Guess who's back? Guess who's back?
++Guess who's back? Guess who's back?
++Guess who's back? Guess who's back?
++Guess who's back?
++(Da-da-da, da, da, da, da, da, da)
++(Da-da-da, da, da, da, da)
+\ No newline at end of file
+
+
+
+
+$ git log refren3.txt
+commit 0079477ead123ea695f693db82ed9f58c7c139c8
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:52:14 2023 +0200
+
+    przenies refren3
+
+
+
+
+
+$ git log -p zwrotka1.txt
+commit 6ed3af9e193e07e9af33063cf1b29dec022764be
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:51:08 2023 +0200
+
+    przenies zwrotka1
+
+diff --git a/zwrotka1.txt b/zwrotka1.txt
+new file mode 100644
+index 0000000..5b16047
+--- /dev/null
++++ b/zwrotka1.txt
+@@ -0,0 +1,21 @@
++[Verse 1: Eminem]
++I've created a monster
++'Cause nobody wants to see Marshall no more, they want Shady, I'm chopped liver
++Well, if you want Shady, this is what I'll give ya
++A little bit of weed mixed with some hard liquor
++Some vodka that'll jump-start my heart quicker
++Than a shock when I get shocked at the hospital
++By the doctor when I'm not cooperating
++When I'm rockin' the table while he's operating (Hey!)
++You waited this long, now stop debating
++'Cause I'm back, I'm on the rag and ovulating
+
+
+
+jakub@DESKTOP-MPS9I0E MINGW64 /c/git_zadanie (master)
+$ git log zwrotka2.txt
+commit dc7adb5636e1314931ab0d09a3e8ca4d56820aeb
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:54:03 2023 +0200
+
+    przenies zwrotka2
+
+
+
+
+$ git log -p zwrotka3.txt
+commit 1673ce740a8038a2d7552529ac2e18f2f8e49de2
+Author: Jakub <jakubwcislo18@gmail.com>
+Date:   Thu Aug 24 08:54:43 2023 +0200
+
+    przenies zwrotka3
+
+diff --git a/zwrotka3.txt b/zwrotka3.txt
+new file mode 100644
+index 0000000..19ed2df
+--- /dev/null
++++ b/zwrotka3.txt
+@@ -0,0 +1,25 @@
++[Verse 3: Eminem]
++A tisket, a tasket, I'll go tit-for-tat wit'
++Anybody who's talkin', "This shit, that shit"
++Chris Kirkpatrick, you can get your ass kicked
++Worse than them little Limp Bizkit bastards
++And Moby? You can get stomped by Obie
++You thirty-six-year-old bald-headed fag, blow me
++You don't know me, you're too old, let go
++It's over, nobody listens to techno
++Now, let's go, just give me the signal
++I'll be there with a whole list full of new insults
